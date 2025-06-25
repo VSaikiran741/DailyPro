@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
+  /* background-image: url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1950&q=80'); */
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px); /* optional: gives elegant blur over background */
+}
+
+
+h1 {
+  text-align: center;
+  color: #4e3c3c;
+  font-size: 2.2rem;
+  /* margin-bottom: 1rem; */
+  font-weight: 700;
+   margin-top: 30%; 
+  padding-top: 25px;
+}
+
+.register-form {
+  background: #fffefc ;
+  border-radius: 25px;
+  padding: 40px 35px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 480px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  animation: fadeInUp 0.9s ease;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #5a4646;
+  font-weight: 600;
+}
+
+.input input {
+  padding: 13px 14px;
+  font-size: 15px;
+  border-radius: 12px;
+  border: 2px solid #eed9d9;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #ffb3b3;
+  box-shadow: 0 0 5px rgba(255, 179, 179, 0.4);
+}
+
+.input button {
+  padding: 13px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ff9494;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.input button:hover {
+  background-color: #ff7a7a;
+  box-shadow: 0 4px 10px rgba(255, 122, 122, 0.3);
+}
+
+.already {
+  text-align: center;
+  font-size: 14px;
+  color: #7b6f6f;
+}
+
+.already a {
+  color: #e67373;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.already a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+/* .register-form h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+} */
+
