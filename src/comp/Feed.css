@@ -16,8 +16,8 @@ body {
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-  width: 90%;
-  max-width: 700px;
+  width: 100%;
+  max-width: 1000px;
   transition: 0.3s ease;
 }
 
